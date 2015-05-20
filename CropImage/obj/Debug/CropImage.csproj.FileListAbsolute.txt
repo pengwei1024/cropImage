@@ -8,3 +8,16 @@ d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.csproj.GenerateR
 d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.exe
 d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.pdb
 d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.showImage.resources
+D:\git\cropImage\CropImage\bin\Debug\CropImage.exe.config
+D:\git\cropImage\CropImage\obj\Debug\CropImage.exe
+D:\git\cropImage\CropImage\obj\Debug\CropImage.pdb
+D:\git\cropImage\CropImage\bin\Debug\CropImage.exe
+D:\git\cropImage\CropImage\bin\Debug\CropImage.pdb
+D:\git\cropImage\CropImage\obj\Debug\CropImage.csprojResolveAssemblyReference.cache
+D:\git\cropImage\CropImage\obj\Debug\CropImage.Properties.Resources.resources
+D:\git\cropImage\CropImage\obj\Debug\CropImage.showImage.resources
+D:\git\cropImage\CropImage\obj\Debug\CropImage.csproj.GenerateResource.Cache
+D:\git\cropImage\CropImage\bin\Debug\CropImage.exe.manifest
+D:\git\cropImage\CropImage\bin\Debug\CropImage.application
+D:\git\cropImage\CropImage\obj\Debug\CropImage.exe.manifest
+D:\git\cropImage\CropImage\obj\Debug\CropImage.application

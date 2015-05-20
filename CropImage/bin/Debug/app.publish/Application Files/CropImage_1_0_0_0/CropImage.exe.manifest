@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CropImage.exe" version="1.0.0.0" publicKeyToken="557efd41b03c8a48" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CropImage" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CropImage.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CropImage.exe" size="81360">
+      <assemblyIdentity name="CropImage" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LZYHGJByv55N0IBwmstBYMBZHybq3IGnm0RuHuh5qew=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CropImage.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="images\icon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sJOqvJ662+ydCcOg4qnimWOuguqvrmqRT0SQDHcVhlk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=INTERNAL\pengwei08" issuerKeyHash="3a8ef1a2ecae4f25cf8420d7680796ca4ba17b8b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wWsmKKIorD1opHDZxE9l1FuP/ghBMF9XAPLArzAc1Ic=</DigestValue></Reference></SignedInfo><SignatureValue>eB2DUuZFYkKK3VG7yZ+2oYFDfyKsiDSp+6M7eZ8PumR5C7v9SfpyBTbuv+zreLto4Tvk9guS4nFccZzszSMzp+YucCImfttSxkq7YlUANp3d6sAHKCbTxPbmBHwVEjOtWqIBR8sD7sTbq14hoae1xhJQBkMjGEAQm92p12z+BiI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pnmrv4yBUk9oAx1T3avp8IvvePYAd0Hs/y73wup8tk8zhjZd5TRkF/LA2ifb3/jKGWQZxOuA7zy8xW8j48KRJHq1SU7uq/2exLuv/DFqQ9GwySYd886YIJVot1SUG12XWfTDfc81ksN4zeGyck5nHJASjkxCJY71oYU0vE1+Ors=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="87d41c30afc0f200575f304108fe8f5bd4654fc4d970a4683dac28a228266bc1" Description="" Url=""><as:assemblyIdentity name="CropImage.exe" version="1.0.0.0" publicKeyToken="557efd41b03c8a48" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=INTERNAL\pengwei08</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MfNMLKFqvUhmYaWSNyqD1BzZI/6LGkjfHwCcQgKychg=</DigestValue></Reference></SignedInfo><SignatureValue>iid/qpY1Yefvu+TIqJzrBW92q8bdaoj7e6xaf9j/AsRCAXUHWiIrdCELKWCU70v+9SzHbQc1UPMbIBaFLvWTv/5daRfeTgzrP2rPDEI1Sb2MNEGVHJuGic6VtKer4LvzgdBUHXt0OWC4MRxe+o2Au7bJjwT7Qa57oWAPMu9kUK8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pnmrv4yBUk9oAx1T3avp8IvvePYAd0Hs/y73wup8tk8zhjZd5TRkF/LA2ifb3/jKGWQZxOuA7zy8xW8j48KRJHq1SU7uq/2exLuv/DFqQ9GwySYd886YIJVot1SUG12XWfTDfc81ksN4zeGyck5nHJASjkxCJY71oYU0vE1+Ors=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQZfEmB13MPK5LquLzO3TJwDANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQASQBOAFQARQBSAE4AQQBMAFwAcABlAG4AZwB3AGUAaQAwADgwHhcNMTUwNTIwMDgxNzE1WhcNMTYwNTE5MTQxNzE1WjAvMS0wKwYDVQQDHiQASQBOAFQARQBSAE4AQQBMAFwAcABlAG4AZwB3AGUAaQAwADgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKZ5q7+MgVJPaAMdU92r6fCL73j2AHdB7P8u98LqfLZPM4Y2XeU0ZBfywNon29/4yhlkGcTrgO88vMVvI+PCkSR6tUlO7qv9nsS7r/wxakPRsMkmHfPOmCCVaLdUlBtdl1n0w33PNZLDeM3hsnJOZxyQEo5MQiWO9aGFNLxNfjq7AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAEXatAzDAL48QfjHSvVhqrV/vfOTsN/Kztl46kyC6kWD+csvsqbmYP/Yi/aKMDY5pK5UK6k5eSUjibG7y4kcpRelyiET3vo+W4RJCNEIQVs7EJakKIjmyR2TZA+vlSqBWZ33gDtF9Q1VM3zFX/HaN/4pxQC6eX24vJNSOGY+Ej+4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
