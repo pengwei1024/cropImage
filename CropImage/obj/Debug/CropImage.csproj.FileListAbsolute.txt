@@ -1,0 +1,10 @@
+d:\vs_project\CropImage\CropImage\CropImage\bin\Debug\CropImage.exe.config
+d:\vs_project\CropImage\CropImage\CropImage\bin\Debug\CropImage.exe
+d:\vs_project\CropImage\CropImage\CropImage\bin\Debug\CropImage.pdb
+d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.csprojResolveAssemblyReference.cache
+d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.Main.resources
+d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.Properties.Resources.resources
+d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.csproj.GenerateResource.Cache
+d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.exe
+d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.pdb
+d:\vs_project\CropImage\CropImage\CropImage\obj\Debug\CropImage.showImage.resources
